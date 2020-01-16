@@ -56,9 +56,36 @@
 #     print("the count is " + str(count))
 #     count=count+1
 #medium
-bill_amount=int(input("total bill? "))
-level_of_service=input("what was the level of the service? ")
-float good = .20
-float fair = .15
-float bad = .10
-casted_output=
+# 1 for medium
+# bill_amount=int(input("total bill? "))
+# level_of_service=input("what was the level of the service? ")
+# if(level_of_service== "good"):
+#     tip = (bill_amount * .20)
+#     bill_amount = (bill_amount + tip)
+#     print("your tip amount is " + str(tip))
+# if(level_of_service == "fair"):
+#     tip = (bill_amount * .15)
+#     print("your tip amount is " + str(tip))
+# if(level_of_service == "bad"):
+#     tip = (bill_amount * .20)
+#     print("your tip amount is " + str(tip))
+
+# number 2
+# bill_amount=int(input("total bill? "))
+# level_of_service=input("what was the level of the service? ")
+# num_split = int(input("how many people are you splitting this with? "))
+# if(level_of_service== "good"):
+#     tip = (bill_amount * .20)
+#     bill_amount = (bill_amount + tip)
+#     bill_amount = (bill_amount/num_split)
+#     print("your tip amount is " + str(tip))
+#     print("each person's bill is " + str(num_split))
+
+# if(level_of_service == "fair"):
+#     tip = (bill_amount * .15)
+#     print("your tip amount is " + str(tip))
+# if(level_of_service == "bad"):
+#     tip = (bill_amount * .20)
+#     print("your tip amount is " + str(tip))
+# number 3 coins will use while loops
+

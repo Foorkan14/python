@@ -55,6 +55,11 @@
 # while(count<=10):
 #     print("the count is " + str(count))
 #     count=count+1
+
+
+
+
+
 #medium
 # 1 for medium
 # bill_amount=int(input("total bill? "))
@@ -77,15 +82,23 @@
 # if(level_of_service== "good"):
 #     tip = (bill_amount * .20)
 #     bill_amount = (bill_amount + tip)
-#     bill_amount = (bill_amount/num_split)
+#     each_person = (bill_amount/num_split)
 #     print("your tip amount is " + str(tip))
-#     print("each person's bill is " + str(num_split))
+#     print("each person's bill is " + str(each_person))
 
 # if(level_of_service == "fair"):
 #     tip = (bill_amount * .15)
+#     bill_amount = (bill_amount + tip)
+#     each_person = (bill_amount/num_split)
 #     print("your tip amount is " + str(tip))
+#     print("each person's bill is " + str(each_person))
 # if(level_of_service == "bad"):
-#     tip = (bill_amount * .20)
+#     tip = (bill_amount * .10)
+#     bill_amount = (bill_amount + tip)
+#     each_person = (bill_amount/num_split)
 #     print("your tip amount is " + str(tip))
+#     print("each person's bill is " + str(each_person))
+
 # number 3 coins will use while loops
+
 

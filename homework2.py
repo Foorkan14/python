@@ -1,8 +1,15 @@
-#small problems
-listA=[1, 2, 3]
-listB=[4, 5, 6]
-for theSum in listA
-    if 
+#number1
+
+# "Given two lists of numbers of the same length, create a new list by multiplying "
+# "the pairs of numbers in corresponding positions in the two lists"
+# num = [1, 2, 3, 4, 5]
+# num2 = [2, 3, 4, 5, 6]
+# num3 = []
+# for i in range (0, len(num)):
+#     num3.append(num[i] * num2[i])
+# print((num3))
+
+#number 2 and 3
 
 # list1 = [2, 4, 5]
 # list2 = [2, 3, 6]
@@ -41,6 +48,20 @@ for theSum in listA
 # bList=list(dict.fromkeys(bList))
 # print(bList)
 
+
+# another more efficient way to do number 4
+
+# original= [1, 2, 2, 3, 1]
+# newlist=[]
+# for item in original:
+#     if item in newlist:               #checking to see if item variable which is going thru newList, and previously went thru original list has any duplicates, if it didnt have any duplicate it'll go to else and and add the item to our new list.
+#         print ("You don't need to add "+str(item)+" again.")
+#     else:
+#         newlist.append(item)
+#         print( "Added "+str(item))
+# print (newlist)
+
+
 #5
 # string = input('Enter some text: ')
 
@@ -64,9 +85,30 @@ for theSum in listA
 
 print(string)
 #6
-first_word= "good"
-count = 
-for theword in first_word;
-    if len(first_word) < 7
+#6 solution:
+# string_to_vowel_check = 'Good'
+# last_letter = ''
+# new_string = ''
+# for letter in string_to_vowel_check:
+#     is_vowel = False
+#     if letter == last_letter:
+#         if letter == 'a' or letter == 'A':
+#             is_vowel = True
+#         elif letter == 'e' or letter == 'E':
+#             is_vowel = True
+#         elif letter == 'i' or letter == 'I':
+#             is_vowel = True
+#         elif letter == 'o' or letter == 'O':
+#             is_vowel = True
+#         elif letter == 'u' or letter == 'U':
+#             is_vowel = True
+#     last_letter = letter
+#     if is_vowel == True:
+#         letter = letter*4
+#     new_string+= letter
+# print(new_string)
 
+
+
+#7 
 
